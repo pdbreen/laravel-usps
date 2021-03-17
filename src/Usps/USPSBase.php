@@ -12,8 +12,8 @@ namespace Johnpaulmedina\Usps;
 
 abstract class USPSBase
 {
-    const LIVE_API_URL = 'http://production.shippingapis.com/ShippingAPI.dll';
-    const TEST_API_URL = 'http://production.shippingapis.com/ShippingAPITest.dll';
+    const LIVE_API_URL = 'https://production.shippingapis.com/ShippingAPI.dll';
+    const TEST_API_URL = 'https://stg-production.shippingapis.com/ShippingAPITest.dll';
 
     /**
      * @var string - the usps username provided by the usps website
